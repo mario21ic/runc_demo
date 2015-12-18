@@ -7,4 +7,4 @@ mkdir rootfs
 tar -C rootfs -xf $myimage.tar
 rm -f $myimage.tar
 
-sudo runc
+sudo runc start
